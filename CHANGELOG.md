@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1
+
+- Normalized release packaging so `module.json` and all module assets live at the ZIP root like the rest of the Affliction Forge library family.
+- No affliction content changes.
+- Participates in the Library Family Consistency & Release Hardening review.
+
 ## 0.1.0
 
 - Initial Planar Contagions library release.

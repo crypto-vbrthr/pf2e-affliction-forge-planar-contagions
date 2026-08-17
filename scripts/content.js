@@ -1,5 +1,5 @@
 const MODULE_ID = "pf2e-affliction-forge-planar-contagions";
-const CONTENT_VERSION = "0.1.0";
+const CONTENT_VERSION = "0.1.1";
 const I18N_PREFIX = "PF2E_AFFLICTION_PLANAR.Content";
 
 const token = (slug, key) => `@i18n:${I18N_PREFIX}.${slug}.${key}`;

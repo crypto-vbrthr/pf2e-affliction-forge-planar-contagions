@@ -2,7 +2,7 @@
   "id": "pf2e-affliction-forge-planar-contagions",
   "title": "PF2E Affliction Forge: Planar Contagions",
   "description": "An original bilingual planar affliction library for PF2E Affliction Forge. Includes 32 staged diseases, poisons, and curses from level 0 to 20 with standardized semantic tags for Creature Forge matching.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "authors": [
     {
       "name": "crypto-vbrthr"
