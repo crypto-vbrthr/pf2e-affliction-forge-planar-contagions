@@ -1,0 +1,568 @@
+{
+  "PF2E_AFFLICTION_PLANAR": {
+    "Module": {
+      "Title": "PF2E Affliction Forge: Planar Contagions",
+      "Library": "Planare Leiden",
+      "LibraryDescription": "Originale planare Krankheiten, Gifte und Flüche mit semantischen Creature-Forge-Tags.",
+      "SyncFailed": "Planare Leiden konnten ihre Bibliothek nicht synchronisieren. Siehe Konsole."
+    },
+    "Content": {
+      "spark-soul-fever": {
+        "Name": "Funkenfieber",
+        "Description": "Elementare Entladungen setzen sich im Nervensystem fest und lassen Muskeln in unregelmäßigen Impulsen zucken.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 1d4 Elektrizität-Schaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 1d6 Elektrizität-Schaden, Unbeholfen 1, Erschöpft."
+        }
+      },
+      "dreamdew-toxin": {
+        "Name": "Traumtau-Toxin",
+        "Description": "Der schillernde Tau mancher Feengewächse betäubt den Körper und zieht Gedanken in einen schläfrigen Zwischenzustand.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 1d4 Gift-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 1d4 Gift-Schaden, Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 1d6 Gift-Schaden, Benommen 1."
+        }
+      },
+      "ash-vein-sickness": {
+        "Name": "Aschenadernkrankheit",
+        "Description": "Feine planare Asche lagert sich im Blut ab und heizt den Körper von innen auf.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Erschöpft."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 1d6 Feuer-Schaden, Erschöpft."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 1d6 Feuer-Schaden, Ausgelaugt 1, Erschöpft."
+        }
+      },
+      "gloamcap-dust": {
+        "Name": "Dämmerhutstaub",
+        "Description": "Die Sporen violetter Dämmerhüte reizen die Sinne und legen einen Schatten über das Sehvermögen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 1d4 Gift-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 1d6 Gift-Schaden, Geblendet."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 1d6 Gift-Schaden, Geblendet, Benommen 1."
+        }
+      },
+      "axiom-tremor": {
+        "Name": "Axiomzittern",
+        "Description": "Der Kontakt mit zu vollkommener Ordnung zwingt Gedanken in starre Muster und lässt jede spontane Handlung schwerer werden.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: Benommen 1, Verlangsamt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 1d6 Mental-Schaden, Benommen 2, Verlangsamt 1. Konzentrieren-Handlungen erfordern einen Flat Check SG 5.",
+          "Gate": "Planare Konzentrationsstörung"
+        }
+      },
+      "silverweb-venom": {
+        "Name": "Silbernetz-Gift",
+        "Description": "Planare Spinnen tragen ein glänzendes Gift, das Muskeln in glasiger Starre einfriert.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 1d6 Gift-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 1d6 Gift-Schaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 2d6 Gift-Schaden, Unbeholfen 1, Verlangsamt 1."
+        }
+      },
+      "cinderlung": {
+        "Name": "Glutlunge",
+        "Description": "Heiße elementare Partikel setzen sich in den Atemwegen fest und entzünden die Lunge bei jedem Atemzug neu.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 1d6 Feuer-Schaden, Kränkelnd 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 2d6 Feuer-Schaden, Kränkelnd 2, Erschöpft."
+        }
+      },
+      "whispering-halo": {
+        "Name": "Flüsternder Heiligenschein",
+        "Description": "Ein fremdes göttliches Echo kreist um den Geist des Opfers und flüstert unablässig unerfüllbare Gebote.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Verängstigt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 1d6 Geist-Schaden, Verängstigt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 2d6 Geist-Schaden, Benommen 1, Verängstigt 1. Konzentrieren-Handlungen erfordern einen Flat Check SG 5.",
+          "Gate": "Planare Konzentrationsstörung"
+        }
+      },
+      "infernal-soot-fever": {
+        "Name": "Höllenrußfieber",
+        "Description": "Ruß aus verdorbenen Ebenen brennt in der Lunge weiter und zehrt an Körper und Willen.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Feuer-Schaden, Kränkelnd 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 2d6 Feuer-Schaden, Kränkelnd 2, Ausgelaugt 1."
+        }
+      },
+      "ether-wasp-venom": {
+        "Name": "Ätherwespengift",
+        "Description": "Der Stich ätherischer Wespen trifft zugleich Fleisch und Seele und hinterlässt eine schmerzhafte Leere.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 1d6 Gift-Schaden, 1d4 Geist-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Gift-Schaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 2d6 Gift-Schaden, 1d6 Geist-Schaden, Verlangsamt 1."
+        }
+      },
+      "abyssal-ichor-toxin": {
+        "Name": "Abyssisches Ichor-Toxin",
+        "Description": "Instabiles Ichor aus chaotischen Ebenen vergiftet Gewebe und zwingt es zu kurzlebigen, schmerzhaften Veränderungen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 2d6 Gift-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Gift-Schaden, Kränkelnd 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 3d6 Gift-Schaden, Kränkelnd 2, Unbeholfen 1."
+        }
+      },
+      "moonpath-curse": {
+        "Name": "Mondpfadfluch",
+        "Description": "Wer einen verbotenen Feenpfad betritt, trägt dessen wechselnde Richtung später im eigenen Geist weiter.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Geblendet, Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Mental-Schaden, Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 2d6 Mental-Schaden, Benommen 2, Verlangsamt 1. Konzentrieren-Handlungen erfordern einen Flat Check SG 5.",
+          "Gate": "Planare Konzentrationsstörung"
+        }
+      },
+      "astral-leech-rot": {
+        "Name": "Astralegelfäule",
+        "Description": "Winzige Astralegel heften sich an die Lebenskraft und saugen sie in unmerklichen Schüben ab.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Geist-Schaden, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 2d6 Geist-Schaden, Ausgelaugt 2, Erschöpft."
+        }
+      },
+      "lightning-marrow": {
+        "Name": "Blitzmark",
+        "Description": "Elementare Elektrizität verankert sich im Knochenmark und entlädt sich bei jeder Belastung erneut.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 1d6 Elektrizität-Schaden, Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Elektrizität-Schaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 3d6 Elektrizität-Schaden, Unbeholfen 2, Verlangsamt 1. Bestimmte Zustände können während dieser Phase nicht unter ihren Mindestwert sinken."
+        }
+      },
+      "gravewind-pall": {
+        "Name": "Grabwindschleier",
+        "Description": "Kalter Wind aus toten Zwischenreichen legt sich auf Atem und Blut und macht lebende Körper langsam still.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Leere-Schaden, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 3d6 Leere-Schaden, Ausgelaugt 2, Erschöpft. Von diesem Leiden verursachter Schaden kann nicht geheilt werden."
+        }
+      },
+      "prism-serpent-venom": {
+        "Name": "Prismenschlangengift",
+        "Description": "Das Gift prismatischer Schlangen trägt wechselnde elementare Ladungen durch die Blutbahn.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 2d6 Gift-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Gift-Schaden, 1d6 Elektrizität-Schaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 3d6 Gift-Schaden, 1d6 Feuer-Schaden, Unbeholfen 2."
+        }
+      },
+      "clock-soul-fracture": {
+        "Name": "Uhrseelenbruch",
+        "Description": "Planare Mechanismen können den inneren Rhythmus einer Seele beschädigen, bis Gedanken und Bewegungen aus dem Takt geraten.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Verlangsamt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Mental-Schaden, Verlangsamt 1, Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 3d6 Mental-Schaden, Verlangsamt 1, Benommen 2. Konzentrieren-Handlungen erfordern einen Flat Check SG 7. Bestimmte Zustände können während dieser Phase nicht unter ihren Mindestwert sinken.",
+          "Gate": "Planare Konzentrationsstörung"
+        }
+      },
+      "star-mold-infection": {
+        "Name": "Sternenschimmelbefall",
+        "Description": "Schwarzer Schimmel aus den Zwischenräumen der Ebenen wächst nicht nur auf Fleisch, sondern auch auf Wahrnehmung.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Gift-Schaden, Kränkelnd 1, Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 3d6 Gift-Schaden, Kränkelnd 2, Benommen 1, Ausgelaugt 1."
+        }
+      },
+      "hellglass-venom": {
+        "Name": "Höllenglasgift",
+        "Description": "Kristallklare Tropfen aus den Reißzähnen planarischer Jäger schneiden wie geschmolzenes Glas durch Nerven und Muskeln.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 3d6 Gift-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 3d6 Gift-Schaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 4d6 Gift-Schaden, Unbeholfen 2, Verlangsamt 1."
+        }
+      },
+      "radiant-scar": {
+        "Name": "Strahlennarbe",
+        "Description": "Übermäßige heilige Energie kann eine leuchtende Wunde in der Seele hinterlassen, die sich gegen gewöhnliche Heilung sperrt.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 2d6 Geist-Schaden, Geblendet."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 3d6 Geist-Schaden, Geblendet, Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 4d6 Geist-Schaden, Benommen 2, Verlangsamt 1. Von diesem Leiden verursachter Schaden kann nicht geheilt werden."
+        }
+      },
+      "dreaming-gate-fever": {
+        "Name": "Traumtorfieber",
+        "Description": "Wer zu lange an einem offenen Traumtor verweilt, beginnt Wachsein und Traum miteinander zu verwechseln.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 3d6 Mental-Schaden, Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 4d6 Mental-Schaden, Benommen 2, Verlangsamt 1. Konzentrieren-Handlungen erfordern einen Flat Check SG 7.",
+          "Gate": "Planare Konzentrationsstörung"
+        }
+      },
+      "void-reef-toxin": {
+        "Name": "Leeriff-Toxin",
+        "Description": "Stacheln und Zähne fremder Riffwesen tragen ein Gift, das Wärme und Lebenskraft aus dem Blut zieht.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 3d6 Gift-Schaden, 1d6 Leere-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 4d6 Gift-Schaden, 1d6 Leere-Schaden, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 4d6 Gift-Schaden, 2d6 Leere-Schaden, Ausgelaugt 2, Verlangsamt 1."
+        }
+      },
+      "soul-tithe-brand": {
+        "Name": "Seelenzehntmal",
+        "Description": "Das Brandzeichen eines Unholds fordert in regelmäßigen Abständen einen Teil der Lebenskraft seines Trägers ein.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 3d6 Geist-Schaden, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 4d6 Geist-Schaden, Ausgelaugt 2, Benommen 1. Von diesem Leiden verursachter Schaden kann nicht geheilt werden. Bestimmte Zustände können während dieser Phase nicht unter ihren Mindestwert sinken."
+        }
+      },
+      "quicksilver-time-rot": {
+        "Name": "Quecksilber-Zeitfäule",
+        "Description": "Der Körper gerät in winzige Zeitversätze, sodass Bewegungen und Gedanken nicht länger im selben Augenblick stattfinden.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Unbeholfen 1, Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 3d6 Mental-Schaden, Unbeholfen 1, Verlangsamt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 4d6 Mental-Schaden, Unbeholfen 2, Verlangsamt 1, Benommen 1."
+        }
+      },
+      "elemental-concordance": {
+        "Name": "Elementarkonkordanz",
+        "Description": "Widerstreitende Elemente versuchen zugleich, den Körper zu ihrem Gefäß zu machen.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 2d6 Feuer-Schaden, 2d6 Kälte-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Elektrizität-Schaden, 2d6 Säure-Schaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 3d6 Feuer-Schaden, 3d6 Kälte-Schaden, Unbeholfen 2, Verlangsamt 1. Konzentrieren-Handlungen erfordern einen Flat Check SG 9.",
+          "Gate": "Planare Konzentrationsstörung"
+        }
+      },
+      "shadow-passage-rot": {
+        "Name": "Schattenpfadfäule",
+        "Description": "Wiederholtes Reisen durch tote Schattenräume kann den Körper an die Leere gewöhnen, bis er sich vom Leben löst.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 3d6 Leere-Schaden, Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 4d6 Leere-Schaden, Ausgelaugt 2, Geblendet."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 5d6 Leere-Schaden, Ausgelaugt 2, Benommen 1. Du kannst nicht sprechen. Von diesem Leiden verursachter Schaden kann nicht geheilt werden."
+        }
+      },
+      "chaos-bloom-toxin": {
+        "Name": "Chaosblütentoxin",
+        "Description": "Sporen einer unmöglichen Blüte verändern bei jedem Atemzug ihre chemische Gestalt und damit ihre Wirkung.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 4d6 Gift-Schaden, Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 5d6 Gift-Schaden, Kränkelnd 2, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 5d6 Gift-Schaden, 2d6 anhaltender Mental-Schaden, Unbeholfen 2, Benommen 1."
+        }
+      },
+      "fate-chain": {
+        "Name": "Schicksalskette",
+        "Description": "Unsichtbare Ketten aus vollkommener Ordnung legen sich um Entscheidungen und zwingen Möglichkeiten auf immer engere Bahnen.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Benommen 1, Verlangsamt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 4d6 Mental-Schaden, Benommen 2, Verlangsamt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 5d6 Mental-Schaden, Benommen 2, Verlangsamt 1. Konzentrieren-Handlungen erfordern einen Flat Check SG 11. Bestimmte Zustände können während dieser Phase nicht unter ihren Mindestwert sinken.",
+          "Gate": "Planare Konzentrationsstörung"
+        }
+      },
+      "phoenix-ash-fever": {
+        "Name": "Phönixaschenfieber",
+        "Description": "Lebendige Asche entzündet sich immer wieder im Blut und lässt selbst geheilte Wunden glühend zurück.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 4d6 Feuer-Schaden, Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 5d6 Feuer-Schaden, Ausgelaugt 2, Erschöpft."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 6d6 Feuer-Schaden, 2d6 anhaltender Feuer-Schaden, Ausgelaugt 2, Verlangsamt 1. Von diesem Leiden verursachter Schaden kann nicht geheilt werden."
+        }
+      },
+      "crown-of-broken-oaths": {
+        "Name": "Krone gebrochener Eide",
+        "Description": "Ein gebrochener heiliger oder infernaler Schwur kann sich als unsichtbare Krone manifestieren, die jedes weitere Wort schwerer macht.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 4d6 Geist-Schaden, Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 5d6 Geist-Schaden, Benommen 2, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 6d6 Geist-Schaden, Benommen 2, Ausgelaugt 2. Du kannst nicht sprechen. Von diesem Leiden verursachter Schaden kann nicht geheilt werden. Bestimmte Zustände können während dieser Phase nicht unter ihren Mindestwert sinken."
+        }
+      },
+      "astral-worm-colony": {
+        "Name": "Astralwurmkolonie",
+        "Description": "Planare Würmer nisten zwischen Körper und Seele und vermehren sich dort, wo Heilung ihre Spuren verwischt.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 4d6 Geist-Schaden, Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 5d6 Geist-Schaden, Ausgelaugt 2, Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 6d6 Geist-Schaden, 2d6 anhaltender Blutung-Schaden, Ausgelaugt 2, Benommen 2. Du kannst keine Trefferpunkte zurückerlangen."
+        }
+      },
+      "planar-unmaking": {
+        "Name": "Planare Auflösung",
+        "Description": "Die schlimmsten Risse zwischen Ebenen können ein Wesen aus seiner eigenen Wirklichkeit lösen, Phase für Phase, bis nichts mehr fest verankert bleibt.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 5d6 Geist-Schaden, Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 6d6 Geist-Schaden, Benommen 2, Ausgelaugt 1. Konzentrieren-Handlungen erfordern einen Flat Check SG 11.",
+          "Gate": "Planare Konzentrationsstörung"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 8d6 Geist-Schaden, Benommen 2, Ausgelaugt 2, Verlangsamt 1. Du kannst keine Trefferpunkte zurückerlangen. Bestimmte Zustände können während dieser Phase nicht unter ihren Mindestwert sinken."
+        },
+        "Stage4": {
+          "Name": "Phase 4",
+          "Description": "Effekte: Todeseffekt, 10d6 Geist-Schaden. Du kannst nicht sprechen. Du kannst keine Trefferpunkte zurückerlangen."
+        }
+      }
+    }
+  }
+}

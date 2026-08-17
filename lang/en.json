@@ -1,0 +1,568 @@
+{
+  "PF2E_AFFLICTION_PLANAR": {
+    "Module": {
+      "Title": "PF2E Affliction Forge: Planar Contagions",
+      "Library": "Planar Contagions",
+      "LibraryDescription": "Original planar diseases, poisons, and curses with semantic Creature Forge tags.",
+      "SyncFailed": "Planar Contagions could not synchronize its library. See console."
+    },
+    "Content": {
+      "spark-soul-fever": {
+        "Name": "Spark-Soul Fever",
+        "Description": "Elemental discharges lodge in the nervous system, making muscles twitch in irregular pulses.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 1d4 electricity damage, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 1d6 electricity damage, Clumsy 1, Fatigued."
+        }
+      },
+      "dreamdew-toxin": {
+        "Name": "Dreamdew Toxin",
+        "Description": "The shimmering dew of certain fey plants numbs the body and pulls thoughts into a drowsy in-between state.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 1d4 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 1d4 poison damage, Stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 1d6 poison damage, Stupefied 1."
+        }
+      },
+      "ash-vein-sickness": {
+        "Name": "Ash-Vein Sickness",
+        "Description": "Fine planar ash settles in the blood and heats the body from within.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Fatigued."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 1d6 fire damage, Fatigued."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 1d6 fire damage, Drained 1, Fatigued."
+        }
+      },
+      "gloamcap-dust": {
+        "Name": "Gloamcap Dust",
+        "Description": "Spores from violet gloamcaps irritate the senses and cast a shadow over vision.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 1d4 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 1d6 poison damage, Dazzled."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 1d6 poison damage, Dazzled, Stupefied 1."
+        }
+      },
+      "axiom-tremor": {
+        "Name": "Axiom Tremor",
+        "Description": "Contact with excessive order forces thoughts into rigid patterns and makes spontaneous action increasingly difficult.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: Stupefied 1, Slowed 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 1d6 mental damage, Stupefied 2, Slowed 1. Concentrate actions require a DC 5 flat check.",
+          "Gate": "Planar concentration interference"
+        }
+      },
+      "silverweb-venom": {
+        "Name": "Silverweb Venom",
+        "Description": "Planar spiders carry a gleaming venom that freezes muscles into glassy rigidity.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 1d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 1d6 poison damage, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 2d6 poison damage, Clumsy 1, Slowed 1."
+        }
+      },
+      "cinderlung": {
+        "Name": "Cinderlung",
+        "Description": "Hot elemental particles settle in the airways and reignite the lungs with every breath.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 1d6 fire damage, Sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 2d6 fire damage, Sickened 2, Fatigued."
+        }
+      },
+      "whispering-halo": {
+        "Name": "Whispering Halo",
+        "Description": "A strange divine echo circles the victim’s mind, endlessly whispering impossible commandments.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Frightened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 1d6 spirit damage, Frightened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 2d6 spirit damage, Stupefied 1, Frightened 1. Concentrate actions require a DC 5 flat check.",
+          "Gate": "Planar concentration interference"
+        }
+      },
+      "infernal-soot-fever": {
+        "Name": "Infernal Soot Fever",
+        "Description": "Soot from corrupted planes keeps burning in the lungs, consuming body and resolve.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 fire damage, Sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 2d6 fire damage, Sickened 2, Drained 1."
+        }
+      },
+      "ether-wasp-venom": {
+        "Name": "Ether-Wasp Venom",
+        "Description": "The sting of ether wasps strikes flesh and soul at once, leaving behind a painful emptiness.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 1d6 poison damage, 1d4 spirit damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 poison damage, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 2d6 poison damage, 1d6 spirit damage, Slowed 1."
+        }
+      },
+      "abyssal-ichor-toxin": {
+        "Name": "Abyssal Ichor Toxin",
+        "Description": "Unstable ichor from chaotic planes poisons tissue and forces it into brief, painful changes.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 2d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 poison damage, Sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 3d6 poison damage, Sickened 2, Clumsy 1."
+        }
+      },
+      "moonpath-curse": {
+        "Name": "Moonpath Curse",
+        "Description": "Those who tread a forbidden fey path later carry its shifting direction within their own mind.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Dazzled, Stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 mental damage, Stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 2d6 mental damage, Stupefied 2, Slowed 1. Concentrate actions require a DC 5 flat check.",
+          "Gate": "Planar concentration interference"
+        }
+      },
+      "astral-leech-rot": {
+        "Name": "Astral Leech Rot",
+        "Description": "Tiny astral leeches fasten onto life force and drain it away in subtle pulses.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 spirit damage, Drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 2d6 spirit damage, Drained 2, Fatigued."
+        }
+      },
+      "lightning-marrow": {
+        "Name": "Lightning Marrow",
+        "Description": "Elemental electricity anchors itself in the marrow and discharges anew whenever the body is strained.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 1d6 electricity damage, Clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 electricity damage, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 3d6 electricity damage, Clumsy 2, Slowed 1. Certain conditions cannot fall below their minimum value during this stage."
+        }
+      },
+      "gravewind-pall": {
+        "Name": "Gravewind Pall",
+        "Description": "Cold wind from dead border-realms settles over breath and blood, slowly quieting living bodies.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 void damage, Drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 3d6 void damage, Drained 2, Fatigued. Damage caused by this affliction cannot be healed."
+        }
+      },
+      "prism-serpent-venom": {
+        "Name": "Prism Serpent Venom",
+        "Description": "The venom of prism serpents carries shifting elemental charges through the bloodstream.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 2d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 poison damage, 1d6 electricity damage, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 3d6 poison damage, 1d6 fire damage, Clumsy 2."
+        }
+      },
+      "clock-soul-fracture": {
+        "Name": "Clock-Soul Fracture",
+        "Description": "Planar mechanisms can damage a soul’s inner rhythm until thought and movement fall out of step.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Slowed 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 mental damage, Slowed 1, Stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 3d6 mental damage, Slowed 1, Stupefied 2. Concentrate actions require a DC 7 flat check. Certain conditions cannot fall below their minimum value during this stage.",
+          "Gate": "Planar concentration interference"
+        }
+      },
+      "star-mold-infection": {
+        "Name": "Star-Mold Infection",
+        "Description": "Black mold from the spaces between planes grows not only on flesh, but on perception itself.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 poison damage, Sickened 1, Stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 3d6 poison damage, Sickened 2, Stupefied 1, Drained 1."
+        }
+      },
+      "hellglass-venom": {
+        "Name": "Hellglass Venom",
+        "Description": "Crystal-clear drops from planar predators cut through nerves and muscles like molten glass.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 3d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 3d6 poison damage, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 4d6 poison damage, Clumsy 2, Slowed 1."
+        }
+      },
+      "radiant-scar": {
+        "Name": "Radiant Scar",
+        "Description": "Excessive holy energy can leave a luminous wound in the soul that resists ordinary healing.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 2d6 spirit damage, Dazzled."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 3d6 spirit damage, Dazzled, Stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 4d6 spirit damage, Stupefied 2, Slowed 1. Damage caused by this affliction cannot be healed."
+        }
+      },
+      "dreaming-gate-fever": {
+        "Name": "Dreaming Gate Fever",
+        "Description": "Those who linger too long beside an open dream gate begin to confuse waking life with dreams.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 3d6 mental damage, Stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 4d6 mental damage, Stupefied 2, Slowed 1. Concentrate actions require a DC 7 flat check.",
+          "Gate": "Planar concentration interference"
+        }
+      },
+      "void-reef-toxin": {
+        "Name": "Void Reef Toxin",
+        "Description": "Spines and teeth of alien reef creatures carry a toxin that draws warmth and vitality from the blood.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 3d6 poison damage, 1d6 void damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 4d6 poison damage, 1d6 void damage, Drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 4d6 poison damage, 2d6 void damage, Drained 2, Slowed 1."
+        }
+      },
+      "soul-tithe-brand": {
+        "Name": "Soul Tithe Brand",
+        "Description": "A fiendish brand periodically claims a portion of its bearer’s life force as payment.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 3d6 spirit damage, Drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 4d6 spirit damage, Drained 2, Stupefied 1. Damage caused by this affliction cannot be healed. Certain conditions cannot fall below their minimum value during this stage."
+        }
+      },
+      "quicksilver-time-rot": {
+        "Name": "Quicksilver Time Rot",
+        "Description": "The body slips into tiny temporal offsets, causing movement and thought to occur in slightly different moments.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Clumsy 1, Stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 3d6 mental damage, Clumsy 1, Slowed 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 4d6 mental damage, Clumsy 2, Slowed 1, Stupefied 1."
+        }
+      },
+      "elemental-concordance": {
+        "Name": "Elemental Concordance",
+        "Description": "Conflicting elements simultaneously attempt to make the body their vessel.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 2d6 fire damage, 2d6 cold damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 electricity damage, 2d6 acid damage, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 3d6 fire damage, 3d6 cold damage, Clumsy 2, Slowed 1. Concentrate actions require a DC 9 flat check.",
+          "Gate": "Planar concentration interference"
+        }
+      },
+      "shadow-passage-rot": {
+        "Name": "Shadow Passage Rot",
+        "Description": "Repeated travel through dead shadow-realms can accustom the body to the void until it begins to detach from life.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 3d6 void damage, Drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 4d6 void damage, Drained 2, Dazzled."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 5d6 void damage, Drained 2, Stupefied 1. You cannot speak. Damage caused by this affliction cannot be healed."
+        }
+      },
+      "chaos-bloom-toxin": {
+        "Name": "Chaos Bloom Toxin",
+        "Description": "Spores from an impossible bloom change their chemical form with every breath, and their effects with it.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 4d6 poison damage, Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 5d6 poison damage, Sickened 2, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 5d6 poison damage, 2d6 persistent mental damage, Clumsy 2, Stupefied 1."
+        }
+      },
+      "fate-chain": {
+        "Name": "Fate Chain",
+        "Description": "Invisible chains of perfect order tighten around choices, forcing possibilities into ever narrower paths.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Stupefied 1, Slowed 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 4d6 mental damage, Stupefied 2, Slowed 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 5d6 mental damage, Stupefied 2, Slowed 1. Concentrate actions require a DC 11 flat check. Certain conditions cannot fall below their minimum value during this stage.",
+          "Gate": "Planar concentration interference"
+        }
+      },
+      "phoenix-ash-fever": {
+        "Name": "Phoenix Ash Fever",
+        "Description": "Living ash repeatedly ignites within the blood, leaving even healed wounds glowing with heat.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 4d6 fire damage, Drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 5d6 fire damage, Drained 2, Fatigued."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 6d6 fire damage, 2d6 persistent fire damage, Drained 2, Slowed 1. Damage caused by this affliction cannot be healed."
+        }
+      },
+      "crown-of-broken-oaths": {
+        "Name": "Crown of Broken Oaths",
+        "Description": "A broken sacred or infernal oath can manifest as an invisible crown that makes every further word harder to utter.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 4d6 spirit damage, Stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 5d6 spirit damage, Stupefied 2, Drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 6d6 spirit damage, Stupefied 2, Drained 2. You cannot speak. Damage caused by this affliction cannot be healed. Certain conditions cannot fall below their minimum value during this stage."
+        }
+      },
+      "astral-worm-colony": {
+        "Name": "Astral Worm Colony",
+        "Description": "Planar worms nest between body and soul and multiply where healing tries to erase their traces.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 4d6 spirit damage, Drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 5d6 spirit damage, Drained 2, Stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 6d6 spirit damage, 2d6 persistent bleed damage, Drained 2, Stupefied 2. You cannot regain Hit Points."
+        }
+      },
+      "planar-unmaking": {
+        "Name": "Planar Unmaking",
+        "Description": "The worst tears between planes can loosen a creature from its own reality, stage by stage, until nothing remains firmly anchored.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 5d6 spirit damage, Stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 6d6 spirit damage, Stupefied 2, Drained 1. Concentrate actions require a DC 11 flat check.",
+          "Gate": "Planar concentration interference"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 8d6 spirit damage, Stupefied 2, Drained 2, Slowed 1. You cannot regain Hit Points. Certain conditions cannot fall below their minimum value during this stage."
+        },
+        "Stage4": {
+          "Name": "Stage 4",
+          "Description": "Effects: death effect, 10d6 spirit damage. You cannot speak. You cannot regain Hit Points."
+        }
+      }
+    }
+  }
+}
